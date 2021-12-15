@@ -24,10 +24,10 @@ const Modal = () => {
               </div>
               <ul className='links-wrapper'>
                 {subMenu.map((link, index) => {
-                  const { linkLabel, url } = link;
+                  const { linkLabel } = link;
                   return (
                     <li className='link-list' key={index}>
-                      <a href={url}>{linkLabel}</a>
+                      <a href='#'>{linkLabel}</a>
                     </li>
                   );
                 })}

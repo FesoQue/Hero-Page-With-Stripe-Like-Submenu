@@ -39,7 +39,7 @@ const Submenu = () => {
                   <span>
                     <FcLink />
                   </span>
-                  <a href={sub.url}>{sub.linkLabel}</a>
+                  <a href='#'>{sub.linkLabel}</a>
                 </div>
               );
             })}
